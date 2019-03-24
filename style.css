@@ -1,0 +1,61 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    overflow-x:hidden;
+    max-width: 100%;
+    margin:0;
+    margin-bottom: 150px;
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Andika';
+    
+}
+#bg{
+    background-image: url(https://source.unsplash.com/featured/?men,fashion,sneakers);
+    /*https://images.unsplash.com/photo-1549942686-486aa99d2223*/
+    background-repeat: no-repeat;
+    min-height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+}
+#banner_content {
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+.carousel-inner img {
+    width: 100%;
+    height:100%;
+}
+.footer{
+    position: absolute;
+    margin-top: 50px;
+    background-color: #141414;
+    min-height:150px;
+    padding-top:40px;
+    width: 100%;
+   
+    bottom: 0;
+    
+}
+.container  a {
+    color:black;
+}
+.container a:hover{
+    color:grey;
+    
+}
+#size{
+    max-height:200px;
+}
+
