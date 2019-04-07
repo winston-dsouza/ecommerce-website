@@ -2,6 +2,8 @@
 The *Planet Shopify* is a ecommerce website.Developed using php in backend and mysql database and used html and bootstrap in frontend.
 Also used [formspree](https://formspree.io) in contact form.
 
+[view screenshots](https://winston-dsouza.github.io/#projects)
+
 ## Set Up Instructions For Running Website
 - Start the Apache and MySQL modules using the **XAMPP** controller.
 - Open the **phpMyAdmin** and create a database **"ecommerce"**. 
@@ -9,4 +11,5 @@ Also used [formspree](https://formspree.io) in contact form.
 - Open the htdocs folder in the xampp folder. Copy paste the folder **Planet-Shopify-ecommerce-website**.
 - Open the browser (chrome), type *localhost/Planet-Shopify-ecommerce-website* and you should see the index page of the website.
 
-*Note:In about.php in this [line](https://github.com/winston-dsouza/Planet-Shopify-ecommerce-website/blob/master/about.php#L71) enter your email* and activate the form
+
+*Note: In about.php in this [line](https://github.com/winston-dsouza/Planet-Shopify-ecommerce-website/blob/master/about.php#L71) enter your email* and activate the form
