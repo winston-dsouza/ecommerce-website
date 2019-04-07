@@ -68,7 +68,7 @@ session_start();
   </div>
   <div class="container mt-3 d-flex justify-content-center card pb-3 col-md-6">
 
-    <form class="col-md-12" action="https://formspree.io/winstondsouza688@gmail.com" method="POST" name="_next">
+    <form class="col-md-12" action="https://formspree.io/EnterYourEmail" method="POST" name="_next">
       <h3 class="text-warning pt-3 title mx-auto">Contact Form</h3>
       <div class="form-group">
         <label for="exampleFormControlInput1">Email address</label>
