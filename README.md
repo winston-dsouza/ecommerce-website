@@ -4,6 +4,8 @@ Also used [formspree](https://formspree.io) in contact form.
 
 [view screenshots](https://winston-dsouza.github.io/#projects)
 
+![indexpage](https://github.com/winston-dsouza/winston-dsouza.github.io/blob/master/images/productgif.gif)
+
 ## Set Up Instructions For Running Website
 - Start the Apache and MySQL modules using the **XAMPP** controller.
 - Open the **phpMyAdmin** and create a database **"ecommerce"**. 
