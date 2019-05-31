@@ -1,4 +1,4 @@
-# Planet-Shopify-ecommerce-website
+# Ecommerce-Website (Planet Shopify) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 The *Planet Shopify* is a ecommerce website.Developed using php in backend and mysql database and used html and bootstrap in frontend.
 Also used [formspree](https://formspree.io) in contact form.
 
