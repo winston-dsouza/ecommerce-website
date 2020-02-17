@@ -2,6 +2,13 @@
 The *Planet Shopify* is a ecommerce website.Developed using php in backend and mysql database and used html and bootstrap in frontend.
 Also used [formspree](https://formspree.io) in contact form.
 
+## Technologies
+- [PHP](https://www.php.net/docs.php)
+- [Bootstrap](https://getbootstrap.com)
+- [MySQL](https://www.mysql.com)
+- [HTML](https://www.w3schools.com/html/default.asp)
+- [CSS](https://www.w3schools.com/css/default.asp)
+
 [view screenshots](https://winston-dsouza.github.io/#projects)
 
 ![index](https://github.com/winston-dsouza/winston-dsouza.github.io/blob/master/images/ecom/productgif.gif)
