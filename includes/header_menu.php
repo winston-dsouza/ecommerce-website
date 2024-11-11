@@ -1,28 +1,21 @@
 
 
 <!--Navigation bar start-->
-<nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color:rgba(0,0,0,0.5)">
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color:rgba(20,20,20,1)">
             <div class="container">
-                    <a href="index.php" class="navbar-brand" style="font-family: 'Delius Swash Caps'">Planet Shopify</a>
+                    <a href="index.php" class="navbar-brand" style="font-family: 'Lobster',cursive"><img src="images/navbrd.png" style="max-height:50px;">Shopper</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
+                
                     <ul class="nav navbar-nav">
-                       <li class="nav-item dropdown">
-                           <a href="" class="nav-link dropdown-toggle" id="navbar-drop" data-toggle="dropdown">
-                               Products
-                            </a>
-                               <div class="dropdown-menu">
-                                   <a href="products.php#watch" class="dropdown-item">Watches</a>
-                                   <a href="products.php#shirt" class="dropdown-item">T-Shirts</a>
-                                   <a href="products.php#shoes" class="dropdown-item">Shoes</a>
-                                   <a href="products.php#headphones" class="dropdown-item">Headphones/Speakers</a>
-                               </div>
-                           
-                       </li>
-                       <li class="nav-item"><a href="index.php" class="nav-link">Offers</a></li>
-                       <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
+                       <li class="nav-item">
+                       <form class="form-inline bg-black  my-2 my-lg-0 mrl">
+                        <input class="form-control mr-sm-2 srh-w bg-white" style="width:500px;" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn  my-2 my-sm-0 bg-warning" type="submit">Search</button>
+                       </form>
+
                        <?php
                        if (isset($_SESSION['email'])) {
                         ?>
@@ -43,7 +36,6 @@
                 } else {
                     ?>
                     <ul class="nav navbar-nav ml-auto">
-                       <li class="nav-item "><a href="#signup" class="nav-link"data-toggle="modal" ><i class="fa fa-user"></i> sign In</a></li>
                        <li class="nav-item "><a href="#login" class="nav-link" data-toggle="modal"><i class="fa fa-sign-in"></i> Login</a></li>
                     </ul>
                     <?php 
@@ -82,7 +74,6 @@
                 </div>
                 <button type="submit" class="btn btn-secondary btn-block" name="Submit">Login</button>
               </form>
-              <a href="http://">forgot password ?</a>
             </div>
             <div class="modal-footer">
               <p class="mr-auto">New User? <a href="#signup" data-toggle="modal" data-dismiss="modal" >signup</a></p>
@@ -94,7 +85,7 @@
     <!--Login trigger Model ends-->
     <!--Signup model start-->
     <div class="modal fade" id="signup">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog-centered ml-auto" role="document">
           <div class="modal-content" style="background-color:rgba(255,255,255,0.95)">
 
             <div class="modal-header">
@@ -115,17 +106,18 @@
                     <label for="pwd">Password:</label>
                     <input type="password" class="form-control" id="pwd" name="password" placeholder="Password" required>
                 </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="validation1">First Name</label>
-                        <input type="text" class="form-control" id="validation1" name="firstName" placeholder="First Name" required>
-                    </div>
-                    <div class="form-group col-md -6">
-                        <label for="validation2">Last Name</label>
-                        <input type="text" class="form-control" id="validation2" name="lastName" placeholder="Last Name">
-                    </div>
+                <div class="form-group">
+                    <label for="validation1">Username:</label>
+                    <input type="text" class="form-control" id="validation1" name="Username" placeholder="Userame" required>
                 </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" class="form-control" id="phone" name="phnumber" placeholder="" required>
+                </div>
+
+                
+                    
+                
                 
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" required>
